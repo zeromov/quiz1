@@ -41,6 +41,8 @@ print('  ', L)
 M = []
 N = []
 
+# Replace this comment with your code
+# Hanxu Wu  z5148463    
 import math
 def Arrange_middle(L):
     M_f =[]
@@ -59,7 +61,7 @@ def Arrange_middle(L):
                 M_f.append(L[index])
                 M_f.append(L[-(index+1)])
     return M_f
-
+#-------------------------------------------------------------
 from collections import OrderedDict
 
 def Generate_order(L):
@@ -80,6 +82,7 @@ def Generate_order(L):
                         index = b
                         break
         return N_f
+#--------------------------------------------
 M=Arrange_middle(L)
 N=Generate_order(L)
     
